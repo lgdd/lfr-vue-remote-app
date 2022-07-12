@@ -2,7 +2,7 @@
 
 # Liferay Vue Remote App
 
-This is a template intended for tests & demos. The webpack configuration included is not optimized for production environments.
+This is a template intended for tests & demos. The vite configuration included is not optimized for production environments.
 
 ## Using this template
 
