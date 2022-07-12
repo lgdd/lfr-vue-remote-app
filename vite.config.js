@@ -17,7 +17,7 @@ export default defineConfig({
     minify: false,
     rollupOptions: {
       output: {
-        assetFileNames: 'assets/[name]-[extname]',
+        assetFileNames: 'assets/[name][extname]',
         entryFileNames: '[name].js',
         manualChunks: undefined,
       }
