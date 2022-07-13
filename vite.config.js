@@ -14,7 +14,7 @@ export default defineConfig({
     }
   },
   build: {
-    minify: false,
+    minify: true,
     rollupOptions: {
       output: {
         assetFileNames: 'assets/[name][extname]',

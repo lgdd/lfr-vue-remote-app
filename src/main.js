@@ -13,4 +13,4 @@ if (!customElements.get(ELEMENT_ID)) {
   customElements.define(ELEMENT_ID, WebComponent);
 }
 
-createApp(App).mount('#app')
+createApp(App).mount('#lfr-vue-remote-app')
