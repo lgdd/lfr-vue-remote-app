@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "prod": "VITE_URL=$URL vite build",
     "preview": "vite build --mode staging && vite preview --port 4173"
   },
   "dependencies": {
