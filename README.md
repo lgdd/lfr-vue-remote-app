@@ -18,4 +18,11 @@ This template is using a custom webpack configuration to build your application 
 
 > Documentation: https://docs.netlify.com/site-deploys/create-deploys/
 
+Use the following build command for Netlify:
+
+```shell
+yarn prod
+```
+> _It will run `VITE_URL=$URL vite build` to get access to Netlify environment variable `URL`_
+
 Why **Netlify**? Because **it's awesome!** Once your repository is linked, you have an automatic deployment each time you push changes to your repository. And by default, Netlify uses `cache-control: public, max-age=0, must-revalidate` to serve your application which means that you are able to see each changes live. Very useful for tests and demos, and if needed you can have [custom HTTP Headers](https://docs.netlify.com/routing/headers/) using a config file. Cherry on the cake, they provide a very fair free tier based on bandwith and build frequency (cf. [Pricing](https://www.netlify.com/pricing/)).
