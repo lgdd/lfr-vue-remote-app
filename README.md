@@ -1,6 +1,6 @@
 ![React version](https://img.shields.io/github/package-json/dependency-version/lgdd/lfr-vue-remote-app/vue)
 
-# Liferay Vue Remote App
+# Liferay Vue Remote App (Client Extension)
 
 This is a template intended for tests & demos. The vite configuration included is not optimized for production environments.
 
