@@ -1,0 +1,13 @@
+assemble:
+    - from: dist
+      into: static
+lfr-vue-remote-app:
+    friendlyURLMapping: lfr-vue-remote-app
+    htmlElementName: lfr-vue-remote-app
+    instanceable: false
+    name: Liferay Vue Remote App
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - index.js
+    useESM: true
